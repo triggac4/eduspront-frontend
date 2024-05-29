@@ -1,2 +1,2 @@
 # eduspront-frontend
-edusprout front end lecture
+Edusprout front end lecture
