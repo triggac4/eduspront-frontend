@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--page container aka flexbox container -->
+    <div id="container">
+      <aside id="page-sidebar">
+        <nav>
+          <ul>
+            <li id="current-page">
+              <a href="index.html">Home</a>
+              <ul>
+                <li><a>About Me</a></li>
+                <li><a>Education</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main id="page-content">
+        <header>
+          <h1>Maroof Shittu - Welcome to My Website</h1>
+          <h3>Table of Contents</h3>
+          <nav id="toc">
+            <ul>
+              <li>
+                <!-- URL -->
+                <a href="#about">About Me</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <section>
+          <header>
+            <h2 id="about">About Me</h2>
+          </header>
+          <article>
+            <p>
+              Hi, my name is Bond, James Bond. I'm a beginner learning HTML.
+            </p>
+           <p>I am a fun loving athletic superstar</p>
+           <p>I love taking long walks on the beach</p>
+          </article>
+        </section>
+
+        <section>
+          <header>
+            <h2 id="education">Education</h2>
+          </header>
+        </section>
+
+        <section>
+          <header>
+            <h2 id="projects">Projects</h2>
+          </header>
+        </section>
+
+        <footer>
+          <p>&copy; 2023 @James Bond. All rights reserved.</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
