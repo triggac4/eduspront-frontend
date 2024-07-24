@@ -44,7 +44,9 @@ header > nav > div {
   padding: 0.5rem;
   background-color: lightblue;
 }
+.banner__first > div {
 
+}
 header > nav > div:nth-child(3) {
   background-color: rgb(38, 26, 26);
   width: 4rem;
@@ -130,7 +132,6 @@ p {
   flex-direction: column;
   gap: 4rem;
   align-items: center;
-
 }
 .product__title h2 {
   font-size: 2rem;
@@ -210,14 +211,13 @@ p {
   margin-bottom: 0.3rem;
 }
 
-
-.meditate__first_scale{
+.meditate__first_scale {
   transform: scale(1.2);
   position: relative;
-  background-color: white
+  background-color: white;
 }
 
-.meditate__first_scale> div {
+.meditate__first_scale > div {
   width: 20rem;
   position: absolute;
   top: 50%;
@@ -233,4 +233,17 @@ p {
   padding: 0.2rem 1.5rem;
   align-self: center;
   margin-bottom: 0.3rem;
+}
+
+.animate {
+  transform: translateX(0);
+  animation: leftRight 5s linear infinite;
+}
+@keyframes leftRight {
+  0% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(0);
+  }
 }
