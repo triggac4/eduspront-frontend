@@ -3,7 +3,7 @@
 //Logical Operators
 
 //Arithmetic Operators
-const a = "8";
+const a = 8;
 const b = 8;
 const c = 10;
 
@@ -15,7 +15,9 @@ const d = 10 - 3;
 //comparison operators return boolean
 // > < >= <= == === != !==
 const e = b > a;
+
 const f = b < a;
+
 const g = b >= a;
 const h = b <= a;
 const i = b == a;

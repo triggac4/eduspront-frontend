@@ -15,7 +15,7 @@ const age = 32;
 
 //String
 const boy = "the boy's food";
-const girl = "the girl said";
+const girl = 'the girl said';
 const trans = `the trans is bald and`;
 
 //Boolean
