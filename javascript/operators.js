@@ -3,11 +3,11 @@
 //Logical Operators
 
 //Arithmetic Operators
-const a = 8;
+const a = '8';
 const b = 8;
 const c = 10;
 
-const d = 10 - 3;
+const d = 4 % 3;
 // + - / * % **
 
 // console.log(d);
@@ -28,7 +28,6 @@ const l = b !== a;
 // console.log(k);
 
 // logical operators
-// || && !
-
-const m = !false;
-console.log(m);
+// && and
+// || or
+const result = !564 || !!0 || ("" && null);

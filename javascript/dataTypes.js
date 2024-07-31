@@ -44,4 +44,4 @@ person["name"]
 //programming always starts with 0
 //Array
 const colors = ["David", 24, true];
-// console.log(colors[1]);
+console.log(colors[1]);
