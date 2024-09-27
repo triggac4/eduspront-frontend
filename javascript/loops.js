@@ -63,4 +63,77 @@ while (yourMoney > myMoney) {
   console.log({ myMoney });
   console.log("Grind hard from while loop");
   myMoney += 10;
+  
 }
+
+// uppercase A
+
+// lowercase a
+
+let wrongpasswordforadmin = 1;
+
+
+  // PascalCase
+  let WRONG_PASSWORD_FORADMIN = "eutjrshdjs";
+
+  // camelCase
+  let wrongPasswordForAdmin = true ||  false
+
+  // null
+  let absence = null
+
+  // undefined
+  let nothing = {
+  };
+
+  const me = {
+    firstName: "Maroof",
+    age: 69,
+    troubles: nothing
+  }
+                  // 0
+  const meToo = ["Maroof"]
+
+
+  me.firstName // Maroof
+
+  meToo[0] // Maroof
+
+function workout () {
+  const breaks = 15
+
+  console.log(breaks)
+}
+
+const console = {
+  log: function() {}
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
